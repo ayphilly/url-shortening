@@ -1,0 +1,77 @@
+.input-shorten {
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/bg-shorten-desktop.svg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: absolute;
+    top: 88%;
+    left: 15%;
+    right: 0;
+    background-color: hsl(255, 11%, 22%);
+    border-radius: 0.7rem;
+    box-shadow: 0.2rem 0.8rem 2rem #a8a8a8;
+    
+}
+
+.input-shorten form {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input {
+    display: block;
+    margin: 0;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding: 10px; */
+    color: inherit;
+    width: 550px;
+    height: 30px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: inherit;
+    line-height: 18px;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: #fff;
+      
+  }
+  input:focus {
+      outline: none;
+      
+  }
+  
+  button {
+      width: 150px;
+      height: 50px;
+      background-color: hsl(180, 66%, 49%) ;
+      border: none;
+      border-radius: 0.7rem;
+      color: #fff;
+      font-size: 14px;
+      transition: .5s ease;
+  }
+
+  button:hover {
+      background-color: hsl(180, 58%, 42%) ;
+  }
+  
+  h2 {
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 700;
+    color: hsl(255, 11%, 22%);
+    width: 100%;
+    text-align: left;
+   
+    
+
+}
