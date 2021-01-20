@@ -10,12 +10,13 @@
     background-repeat: no-repeat; 
     background-size: cover;
     background-color: hsl(255, 11%, 22%);
+    padding: 0px;
     
 }
 
 .thirdbase h3 {
     font-size: 32px;
-    line-height: 1.5rem;
+    line-height: 10px;
     font-weight: 700;
     color: #fff;
     width: fit-content;
