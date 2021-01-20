@@ -7,27 +7,23 @@
     align-items: center;
     position: relative;
     z-index: 1;
+    margin: 0;
 }
 .sticky {
     position: fixed;
     top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100px;
-    transition: .5s ease;
-    margin-bottom: 50px;
-   
+    
+    
   } 
 .topbase .navbar {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100px;
     transition: .5s ease;
     z-index: 12;
+   
     
 }
 
@@ -106,13 +102,15 @@
 }
 
 .topbase .top-section {
-    width: 100%;
-    height: 60vh;
+    width: 95%;
+    height: 100%;
     display: flex;
-    
+    align-self: flex-end;
     align-items: flex-start;
     justify-content: space-around;
     overflow: hidden;
+    transition: .3s ease;
+    
 }
 
 .top-section .top-section-left {
@@ -126,7 +124,7 @@
 }
 
 .top-section-left h2 {
-    font-size: 60px;
+    font-size: 70px;
     line-height: 65px;
     font-weight: 700;
     color: hsl(255, 11%, 22%);

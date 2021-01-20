@@ -1,5 +1,5 @@
 .input-shorten {
-    width: 70%;
+    width: 75%;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@
     background-size: cover;
     position: absolute;
     top: 88%;
-    left: 15%;
+    left: 12%;
     right: 0;
     background-color: hsl(255, 11%, 22%);
     border-radius: 0.7rem;

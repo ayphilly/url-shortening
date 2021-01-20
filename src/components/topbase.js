@@ -13,7 +13,7 @@ function TopBase () {
             var nav = document.querySelector(".navbar");
             var tp = document.querySelector(".top-section");
             var sticky = tp.offsetTop;
-            if (window.pageYOffset > sticky) {
+            if (window.pageYOffset >= sticky) {
                 
                 nav.style.backgroundColor="white"
                 nav.classList.add('sticky');
