@@ -7,25 +7,25 @@ import "./topbase.css"
 
 
 function TopBase () {
-    useEffect(()=>{
+    // useEffect(()=>{
 
-        document.addEventListener("scroll", ()=> {
-            var nav = document.querySelector(".navbar");
-            var tp = document.querySelector(".top-section");
-            var sticky = tp.offsetTop;
-            if (window.pageYOffset >= sticky) {
+    //     document.addEventListener("scroll", ()=> {
+    //         var nav = document.querySelector(".navbar");
+    //         var tp = document.querySelector(".top-section");
+    //         var sticky = tp.offsetTop;
+    //         if (window.pageYOffset >= sticky) {
                 
-                nav.style.backgroundColor="white"
-                nav.classList.add('sticky');
-            }else {
-                nav.classList.remove("sticky");
-            }
+    //             nav.style.backgroundColor="white"
+    //             nav.classList.add('sticky');
+    //         }else {
+    //             nav.classList.remove("sticky");
+    //         }
 
-            }
-        )
+    //         }
+    //     )
         
 
-    })
+    // })
     
     return (
         
