@@ -26,14 +26,33 @@ function TopBase () {
         
 
     // })
+
+    useEffect (()=> {
+        var log = document.querySelector(".nav-logo");
+        var nav = document.querySelector(".mob-nav");
+        log.addEventListener('click', function(){
+            nav.classList.toggle('mobile-nav');
+
+        })
+
+    })
     
     return (
         
         <div className="topbase">
             {/* navbar */}
+            <div className="mob-nav">
+                <p>Features</p>
+                <p>Resources</p>
+                <p>Pricing</p>
+                <hr/>
+                <p>Login</p>
+                <p> Sign Up</p>
+
+            </div>
             <div className="navbar">
                 <div className="navbar-left">
-                    <img src = {Logo} alt="Shortly logo" />
+                    <img src = {Logo} alt="Shortly logo" className="nav-logo"/>
                     <ul className="left-list">
                         <li> Features </li>
                         <li> Pricing </li>
